@@ -87,7 +87,7 @@ Oracle Virtualbox, Kali Linux, Ubuntu Server 24.04.03 LTS, Microsoft Windows 10,
 
 <img width="2558" height="1364" alt="Suricata-Splunk-Logs" src="https://github.com/user-attachments/assets/3835ec13-60e9-493e-86ca-d3f8c3ce6008" />
 
-- After Sysmon and the win_log Splunk index has been configured, I can now confirm if Splunk is properly ingesting the Sysmon event logs. To test this, I opened Command Prompt on the Windows machine and executed the "ipconfig /all" command. I then searched for the command using the win_log index via Splunk.
+- After Sysmon and the win_log Splunk index has been configured, I can now confirm if Splunk is properly ingesting the Sysmon event logs. To test this, I opened Command Prompt on the Windows machine and executed the "ipconfig /all" command. I then searched for the command using the win_log index via Splunk, which revealed one event containing the command. This proves that addition to Suricata alerts, Sysmon event logs are also being ingested by Splunk as well.
 
 <img width="2558" height="1358" alt="Sysmon-Splunk-Logs" src="https://github.com/user-attachments/assets/cfdcd86f-7985-43f3-8c46-259af9728b1e" />
 
