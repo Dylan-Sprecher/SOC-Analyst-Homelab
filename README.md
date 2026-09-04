@@ -79,6 +79,10 @@ Oracle Virtualbox, Kali Linux, Ubuntu Server 24.04.03 LTS, Microsoft Windows 10,
 
 <img width="2560" height="1367" alt="Windows-Network-Config" src="https://github.com/user-attachments/assets/f7d8f899-e7bd-454e-992a-ac2ed9da51dd" />
 
+<img width="2560" height="1308" alt="Disabling Windows Defender" src="https://github.com/user-attachments/assets/e4df2012-4e56-44b3-ae30-252277502df6" />
+
+<img width="2559" height="1307" alt="Disabling Windows Firewall" src="https://github.com/user-attachments/assets/53bc233e-ba4e-49e1-8c19-7af945955b89" />
+
 ### Splunk Configuration
 -	I accessed the Splunk webpage by typing in “http://192.168.0.5:8000" in a web browser on the windows machine and created a receiving port of “9997”.
 -	After logging in, I first wanted to setup Splunk to ingest Sysmon logs from the Windows machine. I created an index called “win_log” and configured a receiving port of 9997. For Splunk to be able to receive the Sysmon logs from port 9997, you must open the firewall on that port by executing the command “sudo ufw allow 9997” on the Ubuntu server. 
